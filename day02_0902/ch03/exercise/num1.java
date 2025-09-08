@@ -50,14 +50,15 @@ public class num1 {
 		
 		System.out.println("-----------------------");
 		
-		double e = 5;
-		double f = 0.0;
-		double g = 5 % f;
-		if (Double.isNaN(g)) {
-			System.out.println("0.0으로 나눌 수 없습니다.");
-		} else {
-			double result1 = g + 10;
-			System.out.println("결과: " + result1);
+//		double e = 5;
+//		double f = 0.0;
+//		double g = 5 % f;
+//		if (Double.isNaN(g)) {
+//			System.out.println("0.0으로 나눌 수 없습니다.");
+//		} else {
+//			double result1 = g + 10;
+//			System.out.println("결과: " + result1);
+			
 		}
 	}
 
