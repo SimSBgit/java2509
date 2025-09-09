@@ -1,0 +1,10 @@
+package ch07.exercise;
+
+public class num6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
