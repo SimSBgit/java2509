@@ -1,0 +1,10 @@
+package kr.co.abst;
+
+public class Circle {
+
+	public Circle(String color, double x, double y, double r) {
+		
+	}
+
+
+}

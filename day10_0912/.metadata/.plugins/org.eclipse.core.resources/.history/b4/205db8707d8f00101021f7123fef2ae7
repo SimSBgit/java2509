@@ -1,0 +1,22 @@
+package kr.co.inherit;
+
+public class Dog extends Animal {
+
+	private String breeds;
+
+	public Dog(String name, int age, String breeds) {
+		super(name, age);
+		this.setBreeds(breeds);
+	}
+
+	public String getBreeds() {
+		return breeds;
+	}
+
+	public void setBreeds(String breeds) {
+		this.breeds = breeds;
+	}
+
+	
+	
+}

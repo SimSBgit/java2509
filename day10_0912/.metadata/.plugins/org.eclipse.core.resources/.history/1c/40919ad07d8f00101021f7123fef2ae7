@@ -1,0 +1,30 @@
+package kr.co.inherit;
+
+public class Animal {
+
+	String name;
+	int age;
+
+	public Animal(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+
+	public void displayInfo() {
+		System.out.println("Animal 정보출력");
+	}
+
+	public void eat() {
+		
+		
+	}
+
+	public void makeSound() {
+		
+		
+	}
+
+	
+	
+}

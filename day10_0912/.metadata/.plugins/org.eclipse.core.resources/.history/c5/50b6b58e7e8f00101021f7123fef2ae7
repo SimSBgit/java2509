@@ -1,0 +1,38 @@
+package kr.co.inherit;
+
+public class Dog extends Animal {
+
+	private String breeds;
+
+	public Dog(String name, int age, String breeds) {
+		super(name, age);
+		this.setBreeds(breeds);
+	}
+
+	public String getBreeds() {
+		return breeds;
+	}
+
+	public void setBreeds(String breeds) {
+		this.breeds = breeds;
+	}
+
+	public void wagTail() {
+		System.out.println("꼬리를 흔든다");
+	}
+
+	public void displayInfo() {
+		System.out.println("Animal 정보출력");
+	}
+
+	public void eat() {
+		System.out.println("Animal 먹는다");
+	}
+
+	public void makeSound() {
+		System.out.println("Animal 소리를 낸다");	
+	}
+
+	
+	
+}

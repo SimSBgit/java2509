@@ -1,0 +1,18 @@
+package kr.co.cls;
+
+public class Student {
+
+	String name;
+	int age;
+	String studentId;
+	
+	public void introduce() {
+		System.out.println(this.name + "를 소개합니다.");
+		
+	}
+	public void study() {
+		System.out.println(this.study() + "번이 공부합니다.");
+		
+	}
+
+}

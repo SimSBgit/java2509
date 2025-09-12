@@ -1,0 +1,9 @@
+package kr.co.abst;
+
+public class Rectangle extends Diagram{
+
+	public Rectangle(String colr, double x, double y, double w, double h) {
+		super(color, x, y);
+	}
+
+}

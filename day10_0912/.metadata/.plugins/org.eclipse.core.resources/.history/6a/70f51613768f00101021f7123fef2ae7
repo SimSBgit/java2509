@@ -1,0 +1,9 @@
+package kr.co;
+
+import kr.co.cls.BasicClass;
+public static void main(String[] args) {
+    BasicClass bc = new BasicClass();
+}
+
+
+

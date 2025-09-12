@@ -1,0 +1,11 @@
+package kr.co;
+
+import kr.co.cls.BasicClass;
+
+public class Exclass {
+	BasicClass bc = new BasicClass() {
+		
+	};
+}
+
+

@@ -1,0 +1,17 @@
+package kr.co.abst;
+
+public class Circle extends Diagram{
+
+	public Circle(String color, double x, double y, double r) {
+		super(color, x, y);
+		
+	}
+
+	@Override
+	String getShapeType() {
+		
+		return "나는 원이야";
+	}
+
+
+}

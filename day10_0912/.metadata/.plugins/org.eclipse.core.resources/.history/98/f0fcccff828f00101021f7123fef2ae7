@@ -1,0 +1,8 @@
+package kr.co.abst;
+
+// 도형 만들기: color, x, y, 원(r), 사각형(w, h)
+public class AbstractClass {
+	
+	Circle circle;
+	Rectangle rectangle;
+}

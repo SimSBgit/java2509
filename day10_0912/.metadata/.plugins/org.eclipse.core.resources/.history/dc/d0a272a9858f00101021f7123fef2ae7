@@ -1,0 +1,12 @@
+package kr.co.abst;
+
+public class Diagram {
+
+	double x;
+	double y;
+	
+	public Diagram(double x, double y) {
+		
+	}
+
+}

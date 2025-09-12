@@ -1,0 +1,39 @@
+package kr.co.inherit;
+
+public class Cat extends Animal {
+
+	private boolean isIndoor;
+
+	public Cat(String name, int age, boolean isIndoor) {
+		super(name, age);
+		this.setIndoor(isIndoor);
+	}
+
+	public boolean getIndoor() {
+		return isIndoor;
+	}
+
+	public void setIndoor(boolean isIndoor) {
+		this.isIndoor = isIndoor;
+	}
+
+	
+
+	public void climb() {
+		System.out.println("고양이가 점프를 합니다.");		
+	}
+
+
+	public void displayInfo() {
+		System.out.println(name + " " + age + "세 " + "산책여부: " + (isIndoor ? "Yes" : "No"));
+	}
+
+	public void eat() {
+		System.out.println("고양이가 밥을 먹습니다.");
+	}
+
+	public void makeSound() {
+		System.out.println("야옹");	
+	}
+
+}

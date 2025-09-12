@@ -1,0 +1,10 @@
+package kr.co.inter;
+
+public class InterfaceClass {
+
+	public InterfaceClass() {
+		
+		Bird bird;
+		Duck duck;
+	}
+}

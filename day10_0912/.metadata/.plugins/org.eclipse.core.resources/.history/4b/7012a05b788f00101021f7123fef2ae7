@@ -1,0 +1,10 @@
+package kr.co.inherit;
+
+public class Dog extends Animal {
+
+	public Dog(String string, int i, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

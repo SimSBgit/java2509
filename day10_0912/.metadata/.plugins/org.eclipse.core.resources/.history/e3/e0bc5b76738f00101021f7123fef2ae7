@@ -1,0 +1,8 @@
+package kr.co;
+
+public class Exclass {
+
+	public void BasicClass() {
+		
+	}
+}

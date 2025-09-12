@@ -1,0 +1,12 @@
+package kr.co.inherit;
+
+public class Cat extends Animal {
+
+	private boolean isIndoor;
+
+	public Cat(String name, int age, boolean isIndoor) {
+		super(name, age);
+		this.isIndoor = isIndoor;
+	}
+
+}

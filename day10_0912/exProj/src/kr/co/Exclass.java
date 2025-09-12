@@ -1,0 +1,29 @@
+package kr.co;
+
+import kr.co.abst.AbstractClass;
+import kr.co.cls.BasicClass;
+import kr.co.inherit.InheritClass;
+import kr.co.inter.InterfaceClass;
+import kr.co.poly.PolymorphismClass;
+
+public class Exclass {
+	public static void main(String[] args) {
+//      기본클래스 연습
+//		BasicClass bc = new BasicClass();
+		
+//		상속 연습
+//		InheritClass ih = new InheritClass();
+		
+//		추상클래스 연습
+//		AbstractClass abs = new AbstractClass(); 
+		
+//		인터페이스 연습
+//		InterfaceClass ifc = new InterfaceClass();
+		
+//		다형성 연습
+		PolymorphismClass ppc = new PolymorphismClass();
+		
+    }
+}
+
+

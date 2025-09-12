@@ -1,0 +1,50 @@
+package kr.co.poly;
+
+import kr.co.inherit.Animal;
+import kr.co.inherit.Cat;
+import kr.co.inherit.Dog;
+
+public class PolymorphismClass {
+	
+	public PolymorphismClass(){
+//		다형성 배열
+		Animal[] animals = {
+				new Dog("바둑이", 5, "진돗개"),
+				new Cat("나비", 3, false),
+				new Dog("체리", 2, "푸들"),
+				new Cat("까망이", 1, true)
+		};
+		System.out.println("동물들의 소리");
+		for(Animal animal: animals) {
+//			여기는 다형성
+			animal.makeSound();
+		}
+		
+		System.out.println();
+		System.out.println("동물들의 행동");
+		
+		for(Animal animal: animals) {
+//			여기가 다형성 강제변환
+			if(animal instanceof Dog dog) {
+				dog.wagTail();
+			} else if(animal instanceof Cat cat) {
+				cat.climb();
+			}
+		}
+		
+//		다형성 메서드 호출
+		playWithAnimal(new Dog("루피", 1, "비글"));
+		playWithAnimal(new Cat("츄츄", 1, true));
+		
+		
+		
+	}
+
+	
+	private static void playWithAnimal(Animal animal) {
+		
+	}
+
+	
+	
+}
